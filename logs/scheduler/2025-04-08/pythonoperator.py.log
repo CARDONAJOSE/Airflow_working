@@ -1,0 +1,845 @@
+[2025-04-08T11:42:42.062+0000] {processor.py:186} INFO - Started process (PID=934) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:42:42.063+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:42:42.067+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:42:42.067+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:42:42.132+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:42:42.112+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:42:42.144+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:42:42.175+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.125 seconds
+[2025-04-08T11:43:13.127+0000] {processor.py:186} INFO - Started process (PID=943) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:43:13.129+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:43:13.140+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:43:13.138+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:43:13.199+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:43:13.173+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:43:13.218+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:43:13.285+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.181 seconds
+[2025-04-08T11:43:43.772+0000] {processor.py:186} INFO - Started process (PID=952) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:43:43.775+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:43:43.790+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:43:43.790+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:43:43.917+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:43:43.865+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:43:43.955+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:43:43.996+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.246 seconds
+[2025-04-08T11:44:14.682+0000] {processor.py:186} INFO - Started process (PID=960) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:44:14.683+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:44:14.691+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:44:14.690+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:44:14.732+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:44:14.712+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:44:14.743+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:44:14.781+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.111 seconds
+[2025-04-08T11:44:45.570+0000] {processor.py:186} INFO - Started process (PID=969) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:44:45.578+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:44:45.618+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:44:45.611+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:44:45.714+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:44:45.662+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:44:45.737+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:44:45.780+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.256 seconds
+[2025-04-08T11:45:16.543+0000] {processor.py:186} INFO - Started process (PID=978) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:45:16.545+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:45:16.549+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:45:16.549+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:45:16.593+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:45:16.573+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:45:16.618+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:45:16.668+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.143 seconds
+[2025-04-08T11:45:46.893+0000] {processor.py:186} INFO - Started process (PID=987) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:45:46.895+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:45:46.903+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:45:46.902+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:45:46.951+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:45:46.926+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:45:46.967+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:45:47.022+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.147 seconds
+[2025-04-08T11:46:17.743+0000] {processor.py:186} INFO - Started process (PID=996) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:46:17.745+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:46:17.749+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:46:17.748+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:46:17.789+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:46:17.771+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:46:17.807+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:46:17.849+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.125 seconds
+[2025-04-08T11:46:48.120+0000] {processor.py:186} INFO - Started process (PID=1005) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:46:48.124+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:46:48.134+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:46:48.134+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:46:48.179+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:46:48.158+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:46:48.193+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:46:48.254+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.148 seconds
+[2025-04-08T11:47:19.111+0000] {processor.py:186} INFO - Started process (PID=1014) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:47:19.113+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:47:19.120+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:47:19.119+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:47:19.161+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:47:19.142+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:47:19.173+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:47:19.213+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.123 seconds
+[2025-04-08T11:47:49.365+0000] {processor.py:186} INFO - Started process (PID=1024) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:47:49.368+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:47:49.373+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:47:49.372+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:47:49.413+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:47:49.396+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:47:49.426+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:47:49.492+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.138 seconds
+[2025-04-08T11:48:20.313+0000] {processor.py:186} INFO - Started process (PID=1033) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:48:20.315+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:48:20.325+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:48:20.324+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:48:20.374+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:48:20.350+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:48:20.395+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:48:20.451+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.154 seconds
+[2025-04-08T11:48:51.391+0000] {processor.py:186} INFO - Started process (PID=1042) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:48:51.393+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:48:51.412+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:48:51.411+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:48:51.521+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:48:51.484+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:48:51.535+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:48:51.612+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.288 seconds
+[2025-04-08T11:49:22.061+0000] {processor.py:186} INFO - Started process (PID=1051) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:49:22.063+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:49:22.067+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:49:22.067+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:49:22.110+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:49:22.091+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:49:22.125+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:49:22.162+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.117 seconds
+[2025-04-08T11:49:52.522+0000] {processor.py:186} INFO - Started process (PID=1060) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:49:52.524+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:49:52.528+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:49:52.528+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:49:52.576+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:49:52.555+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:49:52.590+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:49:52.633+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.125 seconds
+[2025-04-08T11:50:23.452+0000] {processor.py:186} INFO - Started process (PID=1069) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:50:23.454+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:50:23.462+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:50:23.461+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:50:23.503+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:50:23.485+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:50:23.520+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:50:23.558+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.125 seconds
+[2025-04-08T11:50:54.304+0000] {processor.py:186} INFO - Started process (PID=1078) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:50:54.306+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:50:54.309+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:50:54.309+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:50:54.351+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:50:54.332+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:50:54.366+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:50:54.406+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.117 seconds
+[2025-04-08T11:51:24.499+0000] {processor.py:186} INFO - Started process (PID=1087) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:51:24.501+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:51:24.506+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:51:24.505+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:51:24.544+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:51:24.525+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:51:24.561+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:51:24.596+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.108 seconds
+[2025-04-08T11:51:54.775+0000] {processor.py:186} INFO - Started process (PID=1096) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:51:54.778+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:51:54.784+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:51:54.783+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:51:54.823+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:51:54.807+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:51:54.834+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:51:54.869+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.104 seconds
+[2025-04-08T11:52:25.121+0000] {processor.py:186} INFO - Started process (PID=1105) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:52:25.123+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:52:25.133+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:52:25.132+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:52:25.171+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:52:25.155+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:52:25.182+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:52:25.218+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.108 seconds
+[2025-04-08T11:52:55.329+0000] {processor.py:186} INFO - Started process (PID=1114) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:52:55.331+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:52:55.335+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:52:55.335+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:52:55.367+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:52:55.353+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:52:55.380+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:52:55.421+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.104 seconds
+[2025-04-08T11:53:25.655+0000] {processor.py:186} INFO - Started process (PID=1123) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:53:25.659+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:53:25.665+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:53:25.665+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:53:25.715+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:53:25.688+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:53:25.733+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:53:25.796+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.156 seconds
+[2025-04-08T11:53:56.005+0000] {processor.py:186} INFO - Started process (PID=1132) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:53:56.007+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:53:56.012+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:53:56.012+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:53:56.044+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:53:56.030+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:53:56.056+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:53:56.090+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.108 seconds
+[2025-04-08T11:54:26.953+0000] {processor.py:186} INFO - Started process (PID=1141) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:54:26.955+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:54:26.961+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:54:26.960+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:54:27.005+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:54:26.985+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:54:27.025+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:54:27.089+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.151 seconds
+[2025-04-08T11:54:57.484+0000] {processor.py:186} INFO - Started process (PID=1150) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:54:57.486+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:54:57.490+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:54:57.490+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:54:57.531+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:54:57.515+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:54:57.545+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:54:57.580+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.108 seconds
+[2025-04-08T11:55:27.954+0000] {processor.py:186} INFO - Started process (PID=1159) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:55:27.956+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:55:27.960+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:55:27.959+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:55:28.001+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:55:27.982+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:55:28.018+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:55:28.058+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.117 seconds
+[2025-04-08T11:55:58.889+0000] {processor.py:186} INFO - Started process (PID=1168) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:55:58.890+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:55:58.895+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:55:58.894+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:55:58.935+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:55:58.919+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:55:58.951+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:55:58.983+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.106 seconds
+[2025-04-08T11:56:29.763+0000] {processor.py:186} INFO - Started process (PID=1176) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:56:29.765+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:56:29.770+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:56:29.769+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:56:29.804+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:56:29.789+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:56:29.818+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:56:29.850+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.102 seconds
+[2025-04-08T11:57:00.566+0000] {processor.py:186} INFO - Started process (PID=1185) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:57:00.568+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:57:00.572+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:57:00.572+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:57:00.616+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:57:00.597+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:57:00.632+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:57:00.671+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.118 seconds
+[2025-04-08T11:57:30.854+0000] {processor.py:186} INFO - Started process (PID=1194) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:57:30.857+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:57:30.862+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:57:30.862+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:57:30.909+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:57:30.885+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:57:30.921+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:57:30.959+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.117 seconds
+[2025-04-08T11:58:01.450+0000] {processor.py:186} INFO - Started process (PID=1203) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:58:01.453+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:58:01.459+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:58:01.458+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:58:01.544+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:58:01.514+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:58:01.563+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:58:01.625+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.188 seconds
+[2025-04-08T11:58:32.053+0000] {processor.py:186} INFO - Started process (PID=1212) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:58:32.056+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:58:32.073+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:58:32.073+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:58:32.129+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:58:32.104+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 8, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:58:32.145+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:58:32.199+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.169 seconds
+[2025-04-08T11:58:34.355+0000] {processor.py:186} INFO - Started process (PID=1214) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:58:34.357+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:58:34.362+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:58:34.362+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:58:34.431+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:58:34.410+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 7, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:58:34.451+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:58:34.540+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.204 seconds
+[2025-04-08T11:58:57.250+0000] {processor.py:186} INFO - Started process (PID=1222) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:58:57.252+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:58:57.256+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:58:57.255+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:58:57.316+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:58:57.296+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 7, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:58:57.327+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:58:57.363+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.125 seconds
+[2025-04-08T11:59:17.804+0000] {processor.py:186} INFO - Started process (PID=1230) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:59:17.807+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:59:17.813+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:59:17.813+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:59:17.886+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:59:17.864+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 7, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:59:17.902+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:59:17.943+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.155 seconds
+[2025-04-08T11:59:19.867+0000] {processor.py:186} INFO - Started process (PID=1231) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:59:19.870+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:59:19.877+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:59:19.876+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:59:19.961+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:59:19.929+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 7, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:59:19.977+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:59:20.032+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.178 seconds
+[2025-04-08T11:59:50.651+0000] {processor.py:186} INFO - Started process (PID=1240) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:59:50.653+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:59:50.658+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:59:50.657+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:59:50.698+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:59:50.683+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 7, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:59:50.710+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:59:50.744+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.104 seconds
+[2025-04-08T11:59:58.244+0000] {processor.py:186} INFO - Started process (PID=1242) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:59:58.246+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T11:59:58.250+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:59:58.249+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:59:58.321+0000] {logging_mixin.py:190} INFO - [2025-04-08T11:59:58.295+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 7, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2025-04-08T11:59:58.333+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T11:59:58.377+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.150 seconds
+[2025-04-08T12:00:14.124+0000] {processor.py:186} INFO - Started process (PID=1251) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:00:14.126+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:00:14.132+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:00:14.129+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:00:14.198+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:00:14.182+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 14, in <module>
+    t1= python_task = PythonOperator(
+                      ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 222, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 976, in __init__
+    validate_key(self.task_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'python opera' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2025-04-08T12:00:14.203+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:00:14.285+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.176 seconds
+[2025-04-08T12:00:44.764+0000] {processor.py:186} INFO - Started process (PID=1260) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:00:44.766+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:00:44.770+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:00:44.770+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:00:44.809+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:00:44.798+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 14, in <module>
+    t1= python_task = PythonOperator(
+                      ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 222, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 976, in __init__
+    validate_key(self.task_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'python opera' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2025-04-08T12:00:44.811+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:00:44.847+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.095 seconds
+[2025-04-08T12:00:45.931+0000] {processor.py:186} INFO - Started process (PID=1261) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:00:45.932+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:00:45.938+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:00:45.937+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:00:46.001+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:00:47.561+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:00:47.560+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:pythonoperator
+[2025-04-08T12:00:47.592+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:00:47.592+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:pythonoperator
+[2025-04-08T12:00:47.613+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:00:47.613+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:pythonoperator
+[2025-04-08T12:00:47.631+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:00:47.631+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:pythonoperator
+[2025-04-08T12:00:47.644+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:00:47.644+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:pythonoperator
+[2025-04-08T12:00:47.660+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:00:47.660+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:pythonoperator
+[2025-04-08T12:00:47.675+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:00:47.674+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:pythonoperator
+[2025-04-08T12:00:47.676+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:00:47.675+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:00:47.717+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:00:47.717+0000] {dag.py:3262} INFO - Creating ORM DAG for pythonoperator
+[2025-04-08T12:00:47.740+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:00:47.739+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to 2025-08-04 00:00:00+00:00, run_after=2025-08-04 00:00:00+00:00
+[2025-04-08T12:00:47.798+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 1.887 seconds
+[2025-04-08T12:01:17.939+0000] {processor.py:186} INFO - Started process (PID=1270) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:01:17.941+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:01:17.947+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:01:17.946+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:01:17.976+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:01:18.021+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:01:18.021+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:01:18.084+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:01:18.082+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to 2025-08-04 00:00:00+00:00, run_after=2025-08-04 00:00:00+00:00
+[2025-04-08T12:01:18.128+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.200 seconds
+[2025-04-08T12:01:48.921+0000] {processor.py:186} INFO - Started process (PID=1279) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:01:48.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:01:48.927+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:01:48.927+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:01:48.964+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:01:49.048+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:01:49.047+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:01:49.108+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:01:49.108+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to 2025-08-04 00:00:00+00:00, run_after=2025-08-04 00:00:00+00:00
+[2025-04-08T12:01:49.153+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.241 seconds
+[2025-04-08T12:02:04.604+0000] {processor.py:186} INFO - Started process (PID=1281) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:02:04.606+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:02:04.612+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:02:04.612+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:02:04.647+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:02:04.711+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:02:04.710+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:02:04.768+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:02:04.767+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to 2025-08-04 00:00:00+00:00, run_after=2025-08-04 00:00:00+00:00
+[2025-04-08T12:02:04.817+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.229 seconds
+[2025-04-08T12:02:35.114+0000] {processor.py:186} INFO - Started process (PID=1291) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:02:35.116+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:02:35.123+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:02:35.123+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:02:35.204+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:02:35.303+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:02:35.303+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:02:35.357+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:02:35.356+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to 2025-08-04 00:00:00+00:00, run_after=2025-08-04 00:00:00+00:00
+[2025-04-08T12:02:35.397+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.297 seconds
+[2025-04-08T12:02:44.102+0000] {processor.py:186} INFO - Started process (PID=1299) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:02:44.104+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:02:44.107+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:02:44.107+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:02:44.176+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:02:45.080+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:02:45.079+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:02:45.138+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:02:45.137+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to 2024-08-04 00:00:00+00:00, run_after=2024-08-04 00:00:00+00:00
+[2025-04-08T12:02:45.189+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 1.104 seconds
+[2025-04-08T12:03:15.316+0000] {processor.py:186} INFO - Started process (PID=1308) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:03:15.318+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:03:15.323+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:03:15.322+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:03:15.349+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:03:15.393+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:03:15.393+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:03:15.440+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:03:15.440+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to None, run_after=None
+[2025-04-08T12:03:15.703+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.400 seconds
+[2025-04-08T12:03:25.570+0000] {processor.py:186} INFO - Started process (PID=1309) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:03:25.572+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:03:25.577+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:03:25.576+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:03:25.616+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:03:25.614+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pythonoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pythonoperator.py", line 14
+    t1= python_task = PythonOperator(
+                                    ^
+SyntaxError: '(' was never closed
+[2025-04-08T12:03:25.618+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:03:25.654+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.097 seconds
+[2025-04-08T12:03:30.661+0000] {processor.py:186} INFO - Started process (PID=1310) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:03:30.664+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:03:30.668+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:03:30.667+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:03:30.722+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:03:30.780+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:03:30.779+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:03:31.071+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:03:31.071+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to None, run_after=None
+[2025-04-08T12:03:31.115+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.466 seconds
+[2025-04-08T12:03:35.983+0000] {processor.py:186} INFO - Started process (PID=1312) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:03:35.985+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:03:35.990+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:03:35.989+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:03:36.064+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:03:36.153+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:03:36.152+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:03:36.608+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:03:36.607+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to None, run_after=None
+[2025-04-08T12:03:36.656+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.686 seconds
+[2025-04-08T12:04:07.322+0000] {processor.py:186} INFO - Started process (PID=1321) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:04:07.323+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:04:07.329+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:04:07.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:04:07.358+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:04:07.405+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:04:07.405+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:04:07.460+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:04:07.460+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to None, run_after=None
+[2025-04-08T12:04:07.501+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.190 seconds
+[2025-04-08T12:04:38.166+0000] {processor.py:186} INFO - Started process (PID=1330) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:04:38.168+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:04:38.172+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:04:38.172+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:04:38.207+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:04:38.264+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:04:38.263+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:04:38.333+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:04:38.332+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to None, run_after=None
+[2025-04-08T12:04:38.390+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.239 seconds
+[2025-04-08T12:05:09.297+0000] {processor.py:186} INFO - Started process (PID=1339) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:05:09.298+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:05:09.302+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:05:09.302+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:05:09.332+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:05:09.376+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:05:09.376+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:05:09.420+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:05:09.419+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to None, run_after=None
+[2025-04-08T12:05:09.453+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.168 seconds
+[2025-04-08T12:05:40.328+0000] {processor.py:186} INFO - Started process (PID=1354) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:05:40.329+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:05:40.335+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:05:40.334+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:05:40.373+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:05:40.420+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:05:40.419+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:05:40.465+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:05:40.465+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to None, run_after=None
+[2025-04-08T12:05:40.523+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.205 seconds
+[2025-04-08T12:06:10.618+0000] {processor.py:186} INFO - Started process (PID=1363) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:06:10.621+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:06:10.626+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:06:10.625+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:06:10.659+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:06:10.710+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:06:10.710+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:06:10.760+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:06:10.759+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to None, run_after=None
+[2025-04-08T12:06:11.132+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.524 seconds
+[2025-04-08T12:06:41.445+0000] {processor.py:186} INFO - Started process (PID=1372) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:06:41.448+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:06:41.455+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:06:41.454+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:06:41.497+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:06:41.590+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:06:41.589+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:06:42.088+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:06:42.088+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to None, run_after=None
+[2025-04-08T12:06:42.118+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.686 seconds
+[2025-04-08T12:07:12.625+0000] {processor.py:186} INFO - Started process (PID=1381) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:07:12.627+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:07:12.633+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:07:12.632+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:07:12.669+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:07:12.741+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:07:12.740+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:07:12.817+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:07:12.817+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to None, run_after=None
+[2025-04-08T12:07:12.861+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.248 seconds
+[2025-04-08T12:07:43.905+0000] {processor.py:186} INFO - Started process (PID=1390) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:07:43.907+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:07:43.911+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:07:43.911+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:07:43.938+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:07:43.984+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:07:43.984+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:07:44.020+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:07:44.019+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to None, run_after=None
+[2025-04-08T12:07:44.074+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.183 seconds
+[2025-04-08T12:08:15.041+0000] {processor.py:186} INFO - Started process (PID=1400) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:08:15.043+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:08:15.049+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:08:15.048+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:08:15.073+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:08:15.118+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:08:15.117+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:08:15.172+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:08:15.172+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to None, run_after=None
+[2025-04-08T12:08:15.209+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.182 seconds
+[2025-04-08T12:08:45.996+0000] {processor.py:186} INFO - Started process (PID=1410) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:08:45.998+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:08:46.001+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:08:46.001+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:08:46.025+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:08:46.066+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:08:46.065+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:08:46.106+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:08:46.106+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to None, run_after=None
+[2025-04-08T12:08:46.344+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.357 seconds
+[2025-04-08T12:09:16.789+0000] {processor.py:186} INFO - Started process (PID=1419) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:09:16.791+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:09:16.797+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:09:16.796+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:09:16.827+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:09:16.869+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:09:16.869+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:09:17.103+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:09:17.102+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to None, run_after=None
+[2025-04-08T12:09:17.135+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.358 seconds
+[2025-04-08T12:09:48.031+0000] {processor.py:186} INFO - Started process (PID=1429) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:09:48.033+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:09:48.037+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:09:48.037+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:09:48.060+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:09:48.097+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:09:48.096+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:09:48.137+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:09:48.136+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to None, run_after=None
+[2025-04-08T12:09:48.169+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.146 seconds
+[2025-04-08T12:10:18.386+0000] {processor.py:186} INFO - Started process (PID=1437) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:10:18.389+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:10:18.394+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:10:18.393+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:10:18.434+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:10:18.504+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:10:18.504+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:10:18.581+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:10:18.581+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to None, run_after=None
+[2025-04-08T12:10:18.636+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.265 seconds
+[2025-04-08T12:10:49.110+0000] {processor.py:186} INFO - Started process (PID=1446) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:10:49.111+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:10:49.116+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:10:49.116+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:10:49.143+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:10:49.188+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:10:49.187+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:10:49.234+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:10:49.234+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to None, run_after=None
+[2025-04-08T12:10:49.277+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.180 seconds
+[2025-04-08T12:11:20.120+0000] {processor.py:186} INFO - Started process (PID=1455) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:11:20.122+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:11:20.126+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:11:20.125+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:11:20.162+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:11:20.224+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:11:20.224+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:11:20.281+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:11:20.281+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to None, run_after=None
+[2025-04-08T12:11:20.325+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.223 seconds
+[2025-04-08T12:11:50.502+0000] {processor.py:186} INFO - Started process (PID=1464) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:11:50.503+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:11:50.508+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:11:50.508+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:11:50.535+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:11:50.582+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:11:50.581+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:11:50.635+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:11:50.635+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to None, run_after=None
+[2025-04-08T12:11:50.911+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.423 seconds
+[2025-04-08T12:12:21.027+0000] {processor.py:186} INFO - Started process (PID=1474) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:12:21.029+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:12:21.033+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:12:21.033+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:12:21.068+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:12:21.118+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:12:21.118+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:12:21.362+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:12:21.362+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to None, run_after=None
+[2025-04-08T12:12:21.399+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.382 seconds
+[2025-04-08T12:12:51.659+0000] {processor.py:186} INFO - Started process (PID=1483) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:12:51.661+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:12:51.672+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:12:51.671+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:12:51.729+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:12:51.872+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:12:51.872+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:12:52.030+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:12:52.029+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to None, run_after=None
+[2025-04-08T12:12:52.140+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.494 seconds
+[2025-04-08T12:13:22.781+0000] {processor.py:186} INFO - Started process (PID=1493) to work on /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:13:22.783+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pythonoperator.py for tasks to queue
+[2025-04-08T12:13:22.792+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:13:22.791+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:13:22.824+0000] {processor.py:925} INFO - DAG(s) 'pythonoperator' retrieved from /opt/airflow/dags/pythonoperator.py
+[2025-04-08T12:13:22.886+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:13:22.885+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-08T12:13:22.974+0000] {logging_mixin.py:190} INFO - [2025-04-08T12:13:22.973+0000] {dag.py:4180} INFO - Setting next_dagrun for pythonoperator to None, run_after=None
+[2025-04-08T12:13:23.038+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pythonoperator.py took 0.270 seconds
