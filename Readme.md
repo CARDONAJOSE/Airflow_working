@@ -15,13 +15,7 @@
 
 ## Installation
 
-### 1. Cloner le projet
-```bash
-git clone [URL_DU_REPO]
-cd [NOM_DU_PROJET]
-```
-
-### 2. Configuration de l'environnement virtuel
+### 1. Configuration de l'environnement virtuel
 ```bash
 # Créer l'environnement virtuel
 python -m venv .venv
@@ -33,22 +27,13 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-### 3. Installation des dépendances
+### 2. Installation des dépendances
 ```bash
 # Installer les dépendances
 pip install -r requirements.txt
 
 # Pour mettre à jour requirements.txt
 pip freeze > requirements.txt
-```
-
-## Configuration de l'environnement
-
-### Variables d'environnement
-Créez un fichier `.env` à la racine du projet avec les variables suivantes :
-```env
-AIRFLOW_UID=50000
-AIRFLOW_GID=50000
 ```
 
 ## Utilisation
@@ -110,12 +95,6 @@ docker-compose logs -f
 docker-compose restart [service_name]
 ```
 
-## Contribution
-1. Fork le projet
-2. Créez une branche pour votre fonctionnalité
-3. Committez vos changements
-4. Poussez vers la branche
-5. Ouvrez une Pull Request
 
 ## Licence
 [Spécifiez votre licence ici]
