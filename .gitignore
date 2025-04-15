@@ -1,0 +1,37 @@
+# Airflow logs
+logs/
+*.log
+
+# Airflow-specific
+airflow/airflow-webserver.pid
+airflow/airflow-scheduler.pid
+airflow/webserver_config.py
+airflow/unittests.cfg
+
+# Python virtual environment
+.venv/
+venv/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Environment variables
+.env
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db 

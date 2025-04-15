@@ -1,0 +1,50 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Python files
+*.py text diff=python
+*.pyw text diff=python
+*.pyx text diff=python
+*.pxd text diff=python
+
+# Log files - mark as binary to avoid line ending issues
+*.log binary
+logs/** binary
+
+# Shell scripts
+*.sh text eol=lf
+*.bash text eol=lf
+
+# Windows scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Documentation
+*.md text diff=markdown
+*.txt text
+
+# Config files
+*.yml text
+*.yaml text
+*.json text
+*.xml text
+*.toml text
+*.ini text
+*.cfg text
+
+# Binary files
+*.db binary
+*.p binary
+*.pkl binary
+*.pyc binary
+*.pyo binary
+*.pyd binary
+*.so binary
+*.dll binary
+*.exe binary
+*.bin binary
+*.dat binary
+*.gz binary
+*.zip binary
+*.tar binary
+*.rar binary 
